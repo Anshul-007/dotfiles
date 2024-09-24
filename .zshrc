@@ -5,7 +5,7 @@ ZSH=/usr/share/oh-my-zsh/
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
 # List of plugins used
-plugins=(git sudo zsh-256color zsh-autosuggestions zsh-syntax-highlighting)
+plugins=( git sudo zsh-256color zsh-autosuggestions zsh-syntax-highlighting )
 source $ZSH/oh-my-zsh.sh
 
 # In case a command is not found, try to find the package that has it
@@ -78,9 +78,11 @@ alias ...='cd ../..'
 alias .3='cd ../../..'
 alias .4='cd ../../../..'
 alias .5='cd ../../../../..'
-
-alias ..config='cd /home/anshul/.config/hypr'
+alias ..config='cd /home/anshul/.config/hypr/'
 alias ..localbin='cd /home/anshul/.local/share/bin'
+alias lockstyle='~/.config/Hyprlock-Styles/temp1.sh'
+alias capture_lock='~/.local/share/bin/hyprlock_capture.sh'
+
 
 # Always mkdir a path (this doesn't inhibit functionality to make a single dir)
 alias mkdir='mkdir -p'
@@ -90,4 +92,3 @@ alias mkdir='mkdir -p'
 
 #Display Pokemon
 pokemon-colorscripts --no-title -r 1,3,6
-
