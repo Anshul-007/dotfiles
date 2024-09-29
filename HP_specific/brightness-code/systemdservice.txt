@@ -1,0 +1,13 @@
+#/etc/systemd/system/keycode-mapping.service
+[Unit]
+Description=Set keycodes for brightness control
+After=multi-user.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/setkeycodes 3c 224 3d 225
+ExecStartPost=/bin/sleep 2 # Add a delay to ensure input devices are ready
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
