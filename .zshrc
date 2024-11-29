@@ -80,7 +80,7 @@ alias .4='cd ../../../..'
 alias .5='cd ../../../../..'
 alias ..config='cd /home/anshul/.config/hypr/'
 alias ..localbin='cd /home/anshul/.local/share/bin'
-alias lockstyle='~/.config/Hyprlock-Styles/temp1.sh'
+alias lockstyle='~/.config/Hyprlock-Styles/advanced_installer.sh'
 alias capture_lock='~/.local/share/bin/hyprlock_capture.sh'
 
 
