@@ -1,0 +1,6 @@
+pinta
+btop++
+qalculate
+gThumb
+openshot
+
