@@ -4,3 +4,4 @@ qalculate
 gThumb
 openshot
 
+font_manager
