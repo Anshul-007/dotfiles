@@ -1,0 +1,11 @@
+# /etc/systemd/system
+[Unit]
+Description=Enable Num Lock after suspend
+After=suspend.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/numlockx on
+
+[Install]
+WantedBy=suspend.target
