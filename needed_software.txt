@@ -5,3 +5,11 @@ gThumb
 openshot
 
 font_manager
+system-monitoring-center
+yt-x
+mpv media player
+vlc
+micro
+qbittorrent
+spicetify
+vencord

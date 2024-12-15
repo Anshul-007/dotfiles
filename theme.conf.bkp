@@ -69,7 +69,7 @@ ScreenPadding="0"
 Font="3270 Nerd Font"
 ## If you want to choose a custom font it will have to be available to the X root user. See https://wiki.archlinux.org/index.php/fonts#Manual_installation
 
-FontSize=""
+FontSize="13"
 ## Only set a fixed value if fonts are way too small for your resolution. Preferrably kept empty.
 
 
